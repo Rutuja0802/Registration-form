@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        #main {
+            background-color: cadetblue;
+            
+        }
+              
+        div {
+            font-size: 5mm;
+            
+        }
+        #register:hover {
+            
+        
+        opacity: 0.1;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="main">
+           <tr>
+            <div style="margin-left: 20%">
+        <h1 style="margin-left: 15%;">Registration Form</h1>
+        <table>
+           <tr>
+               <td>
+                   <label>Name</label>
+                 
+                
+               </td>
+               <td>  <input type="text" placeholder="type your name">
+                <label>username</label>
+                <input type="username" placeholder="enter your user name">
+                     
+            
+            </td>
+           </tr>
+           <tr>
+               <td>
+                   <label>Email</label>
+               </td>
+               <td>
+                   <input type="email" pattern=".+@mail.com"required placeholder="type your Email">
+                   <label>Phone number</label>
+                   <input type="number" placeholder="enter your phone number" >
+               </td>
+            </tr>
+            <tr>
+               <td>
+                   <label>password</label>
+                   
+               </td>
+               <td>
+                <input type="password" placeholder="type your password" pattern="[a-Z]" minlength="5" maxlength="5"> 
+                <lable>confirm your password</lable>
+                <input type="password" placeholder="confirm your password" pattern="[a-Z]" minlength="5" maxlength="5">
+               </td>
+               
+           </tr>
+           
+        </table>
+    </div>
+    <div style="margin-left: 20%; ">
+           <p><h3>Gender</h3></p>
+           <tr>
+               <td>
+                   <label>male</label>
+               </td>
+               <td><input type="radio" name="gender"></td>
+               <td>
+                   <label>female</label>
+               </td>
+               <td>
+                   <input type="radio" name="gender">
+               </td>
+               <td>
+                   <label>prefer not to say</label>
+               </td>
+               <td>
+                   <input type="radio" name="gender">
+               </td>
+
+           </tr> 
+           </div>
+           <div id="register">
+               <button style="padding: 1%;background-color: darkkhaki;margin-left: 45%; margin-top: 5%; "><a href="">Registor</a></button>
+           </div>
+        </div>
+</body>
+</html>
